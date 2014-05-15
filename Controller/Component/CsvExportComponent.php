@@ -16,7 +16,7 @@ class CsvExportComponent extends Component {
      * 
      * @access public
      */
-    function startup(& $controller) {
+    function startup(Controller $controller) {
         $this->_controller = $controller;
     }
 
